@@ -56,7 +56,7 @@ cp build/pdf-checker.phar downloads/pdf-checker.phar
 git add downloads/pdf-checker-${TAG}.phar
 git add downloads/pdf-checker.phar
 
-SHA1=$(openssl sha1 build/pdf-checker.phar)
+SHA1=$(openssl sha1 build/pdf-checker.phar | awk 'print $1')
 
 JSON='name:"pdf-checker.phar"'
 JSON="${JSON},sha1:\"${SHA1}\""
