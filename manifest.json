@@ -10,5 +10,11 @@
         "sha1": "4a1230fdef33dfe63223261a481b9c98a267e2ec",
         "url": "http://postalservice14.github.io/pdf-checker/downloads/pdf-checker-1.0.1.phar",
         "version": "1.0.1"
+    },
+    {
+        "name": "pdf-checker.phar",
+        "sha1": "1086b458eb4f18829fbcb022b092f378e6360158",
+        "url": "http://postalservice14.github.io/pdf-checker/downloads/pdf-checker-1.0.2.phar",
+        "version": "1.0.2"
     }
 ]
