@@ -52,7 +52,9 @@ box build
 git checkout gh-pages
 
 cp build/pdf-checker.phar downloads/pdf-checker-${TAG}.phar
+cp build/pdf-checker.phar downloads/pdf-checker.phar
 git add downloads/pdf-checker-${TAG}.phar
+git add downloads/pdf-checker.phar
 
 SHA1=$(openssl sha1 build/pdf-checker.phar)
 
