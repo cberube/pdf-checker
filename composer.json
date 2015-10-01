@@ -1,0 +1,24 @@
+{
+    "name": "dn/pdf-checker",
+    "description": "Check for PDFs with duplicate pages.",
+    "authors": [
+        {
+            "name": "John Kelly",
+            "email": "john.m.kelly@cdk.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DigCon\\PdfChecker\\": "src/"
+        }
+    },
+    "require": {
+        "smalot/pdfparser": "^0.9.25",
+        "symfony/console": "^2.6"
+    },
+    "config": {
+        "platform": {
+            "php": "5.3.5"
+        }
+    }
+}
