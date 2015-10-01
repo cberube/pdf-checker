@@ -4,8 +4,10 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 use DigCon\PdfChecker\Command\CheckCommand;
+use DigCon\PdfChecker\Command\UpdateCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application('PDF Checker', '@package_version@');
 $application->add(new CheckCommand());
+$application->add(new UpdateCommand());
 $application->run();
