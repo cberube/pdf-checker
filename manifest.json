@@ -1,2 +1,8 @@
 [
+    {
+        "name": "pdf-checker.phar",
+        "sha1": "SHA1(build/pdf-checker.phar)= aa766a0b8975f2007c526231e51cc61d0862bd58",
+        "url": "http://postalservice14.github.io/pdf-checker/downloads/pdf-checker-1.0.0.phar",
+        "version": "1.0.0"
+    }
 ]
